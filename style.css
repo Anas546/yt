@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+           /* header start */
+
+ .main{    /*   this is main screen size div  */
+     border: 3px solid black;
+     height: 667px;
+     width:  375px; 
+     overflow: scroll;
+     padding: 2px;
+     margin: 2px;
+     margin-left: 9em;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     background:#1e58d6;
+    }
+header{
+        /* background: #cf4485; */
+}
+.navbar{
+    position: relative;
+    left: 10em;
+}
+.navbar img{
+        margin: 0px 5px 0px 5px;
+        width: 1em;
+        height: 0.5em;
+}
+.youtubelogo{
+    width: 10px;
+    height: 6px;
+}
+.youtubelogo img {
+    width:2em;
+    height:1.2em;
+    margin: -6px;
+    margin-left: 2px;
+}
+.youtubelogo h6{
+    display:inline-block ;
+    margin-left: 3.5px;
+font-family: sans-serif;
+}
+               /* header end  */
+
+                /* youtube videoes start   */
+.middle{
+    /* border: 2px solid rgb(37, 69, 248);  */
+    width:  auto;
+    height: 570px;
+    /* background: #eb78e5; */
+}
+
+iframe{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /* footer start */
+.footer{
+/* border: 2px solid green; */
+width:330px ;
+height: 1.8em;
+position: fixed;
+bottom: 0px;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+/* background: #e1f182; */
+}
+.footer img{
+    width: 1em;
+    height: 1em;
+    margin-left: 12px;
+    margin-bottom: -6px;
+
+}
+.footer h6{
+    display: block;
+        position: relative;
+        bottom: -20px;
+        left: -26px;
+        font-size: 8px;
+}
+img .sub{
+    width: 1em;
+    height: 1em;
+    margin:  0px -24px 0px 30px;
+}
+
+.plus img{
+    width: 2em;
+    height: 1.4em;
+}
+                        /* footer end  */
